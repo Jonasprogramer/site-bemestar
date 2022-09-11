@@ -36,23 +36,56 @@ body{
    width: 200px;
    padding: 10px;
 }
-
+.fa-brands{
+    font-size: 20px;  
+}
+.fa-whatsapp{
+    color: green;
+    width: 1rem;
+}
+.fa-instagram{
+    color: pink; 
+}
+@media only screen and (max-width: 700px) {
+    .contact{
+        display: inline;
+        text-align: center;
+    }
+}
 /*menu navbar*/
 nav{
     background-color: #1252A6;
     padding: 15px;
+}
+.btnMenu{
+    display: none;
 }
 ul.menuList{
     text-align: center;
 }
 li.navMenu{
     display: inline;
-    padding: 20px;
     text-transform: uppercase;
 }
 .menu{
     color: #fff;
     text-decoration: none;
+    padding: 20px;
+}
+.menu:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.menu:active{
+    color: #05AFF2;
+}
+@media only screen and (max-width: 750px) {
+    .menu{
+        display: none;
+    }
+    .btnMenu{
+        display: block;
+        margin-left: 95%;
+    }
 }
 
 /*style slider*/
@@ -179,12 +212,12 @@ li.navMenu{
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 
     display: flex;
     flex-wrap: nowrap;
 }
-
+/*Medias query*/
 @media only screen and (max-width: 750px) {
     .cont1{
         display: block;
