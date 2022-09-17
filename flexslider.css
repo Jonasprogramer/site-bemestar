@@ -6,6 +6,12 @@
   font-weight: normal;
   font-style: normal;
 }
+
+/*My fonts*/
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;500&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -44,7 +50,7 @@ body{
     width: 1rem;
 }
 .fa-instagram{
-    color: pink; 
+    color: #C13584; 
 }
 @media only screen and (max-width: 700px) {
     .contact{
@@ -212,6 +218,7 @@ li.navMenu{
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    padding-top: 50px;
     /*border: 2px solid red;*/
 
     display: flex;
@@ -247,10 +254,15 @@ li.navMenu{
 h2.cont{
     color: #05AFF2;
     padding-bottom: 30px;
+    font-family: 'MuseoModerno', cursive;
 }
 p.cont{
     text-align: justify;
     padding-bottom: 10px;
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.5;
+    font-family: 'MuseoModerno', cursive;
 }
 
 .flex-item{
